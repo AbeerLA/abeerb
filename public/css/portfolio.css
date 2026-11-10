@@ -1,0 +1,19 @@
+body {
+    background-color: #2a0d0d;
+    color: #F4F1DE;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Subtle radial ambient glows */
+.ambient-glow-top {
+    background: radial-gradient(circle at 50% 15%, rgba(65, 90, 119, 0.22) 0%, rgba(13, 27, 42, 0) 70%);
+}
+
+.ambient-glow-bottom {
+    background: radial-gradient(circle at 50% 85%, rgba(119, 141, 122, 0.15) 0%, rgba(13, 27, 42, 0) 70%);
+}
+
+/* Star backdrop decorative silhouette */
+.star-shape {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
